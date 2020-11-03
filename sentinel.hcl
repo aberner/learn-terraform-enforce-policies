@@ -24,6 +24,22 @@ policy "cis/aws/networking/aws-cis-4.3-networking-restrict-all-vpc-traffic-acl-r
 
 
 # Azure Policy
+policy "cis/azure/compute/azure-cis-7.1-compute-managed-disk-encryption-is-enabled/azure-cis-7.1-compute-managed-disk-encryption-is-enabled" {
+  enforcement_level = "soft-mandatory"
+}
+
+policy "cis/azure/compute/azure-cis-7.4-compute-only-approved-extensions-are-installed/azure-cis-7.4-compute-only-approved-extensions-are-installed" {
+  enforcement_level = "soft-mandatory"
+}
+
+policy "cis/azure/databases/azure-cis-4.11-databases-mysql-enforce-ssl-connection-is-enabled/azure-cis-4.11-databases-mysql-enforce-ssl-connection-is-enabled" {
+  enforcement_level = "soft-mandatory"
+}
+
+policy "cis/azure/databases/azure-cis-4.13-databases-psql-enforce-ssl-connection-is-enabled/azure-cis-4.13-databases-psql-enforce-ssl-connection-is-enabled" {
+  enforcement_level = "soft-mandatory"
+}
+
 policy "cis/azure/networking/azure-cis-6.1-networking-deny-public-rdp-nsg-rules/azure-cis-6.1-networking-deny-public-rdp-nsg-rules" {
   enforcement_level = "soft-mandatory"
 }
@@ -37,5 +53,25 @@ policy "cis/azure/networking/azure-cis-6.3-networking-deny-any-sql-database-ingr
 }
 
 policy "cis/azure/networking/azure-cis-6.4-networking-enforce-network-watcher-flow-log-retention-period/azure-cis-6.4-networking-enforce-network-watcher-flow-log-retention-period" {
+  enforcement_level = "soft-mandatory"
+}
+
+policy "cis/azure/storage/azure-cis-3.1-storage-secure-transfer-required-is-enabled/azure-cis-3.1-storage-secure-transfer-required-is-enabled" {
+  enforcement_level = "soft-mandatory"
+}
+
+policy "cis/azure/storage/azure-cis-3.3-storage-queue-logging-is-enabled/azure-cis-3.3-storage-queue-logging-is-enabled" {
+  enforcement_level = "soft-mandatory"
+}
+
+policy "cis/azure/storage/azure-cis-3.6-storage-blob-public-access-level-set-to-private/azure-cis-3.6-storage-blob-public-access-level-set-to-private" {
+  enforcement_level = "soft-mandatory"
+}
+
+policy "cis/azure/storage/azure-cis-3.7-storage-default-network-access-rule-set-to-deny/azure-cis-3.7-storage-default-network-access-rule-set-to-deny" {
+  enforcement_level = "soft-mandatory"
+}
+
+policy "cis/azure/storage/azure-cis-3.8-storage-trusted-microsoft-services-is-enabledd/azure-cis-3.8-storage-trusted-microsoft-services-is-enabled" {
   enforcement_level = "soft-mandatory"
 }
