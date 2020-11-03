@@ -72,6 +72,6 @@ policy "cis/azure/storage/azure-cis-3.7-storage-default-network-access-rule-set-
   enforcement_level = "soft-mandatory"
 }
 
-policy "cis/azure/storage/azure-cis-3.8-storage-trusted-microsoft-services-is-enabledd/azure-cis-3.8-storage-trusted-microsoft-services-is-enabled" {
+policy "cis/azure/storage/azure-cis-3.8-storage-trusted-microsoft-services-is-enabled/azure-cis-3.8-storage-trusted-microsoft-services-is-enabled" {
   enforcement_level = "soft-mandatory"
 }
