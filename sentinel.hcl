@@ -22,16 +22,16 @@ policy "cis/azure/databases/azure-cis-4.11-databases-mysql-enforce-ssl-connectio
   enforcement_level = "soft-mandatory"
 }
 
-policy "cis/azure/databases/azure-cis-4.13-databases-psql-enforce-ssl-connection-is-enabled/azure-cis-4.13-databases-psql-enforce-ssl-connection-is-enabled" {
+policy "https://raw.githubusercontent.com/hashicorp/terraform-foundational-policies-library/master/cis/azure/databases/azure-cis-4.13-databases-psql-enforce-ssl-connection-is-enabled/azure-cis-4.13-databases-psql-enforce-ssl-connection-is-enabled" {
   enforcement_level = "soft-mandatory"
 }
 
-policy "cis/azure/networking/azure-cis-6.1-networking-deny-public-rdp-nsg-rules/azure-cis-6.1-networking-deny-public-rdp-nsg-rules" {
+policy "https://raw.githubusercontent.com/hashicorp/terraform-foundational-policies-library/master/cis/azure/networking/azure-cis-6.1-networking-deny-public-rdp-nsg-rules/azure-cis-6.1-networking-deny-public-rdp-nsg-rules" {
   enforcement_level = "soft-mandatory"
 }
 
 policy "azure-cis-6.2-networking-deny-public-ssh-nsg-rules" {
-  source = "https://raw.githubusercontent.com/hashicorp/terraform-foundational-policies-library/master/cis/azure/networking/azure-cis-6.2-networking-deny-public-ssh-nsg-rules/azure-cis-6.2-networking-deny-public-ssh-nsg-rules.sentinel"
+  source = "cis/azure/networking/azure-cis-6.2-networking-deny-public-ssh-nsg-rules/azure-cis-6.2-networking-deny-public-ssh-nsg-rules.sentinel"
   enforcement_level = "soft-mandatory"
 }
 
