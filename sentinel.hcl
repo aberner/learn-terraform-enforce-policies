@@ -9,16 +9,6 @@ policy "less-than-100-month" {
   enforcement_level = "soft-mandatory"
 }
 
-# AWS Policy
-policy "cis/aws/networking/aws-cis-4.1-networking-deny-public-ssh-acl-rules/aws-cis-4.1-networking-deny-public-ssh-acl-rules" {
-  enforcement_level = "soft-mandatory"
-}
-
-policy "cis/aws/networking/aws-cis-4.3-networking-restrict-all-vpc-traffic-acl-rules/aws-cis-4.3-networking-restrict-all-vpc-traffic-acl-rules" {
-  enforcement_level = "soft-mandatory"
-}
-
-
 # Azure Policy
 policy "cis/azure/compute/azure-cis-7.1-compute-managed-disk-encryption-is-enabled/azure-cis-7.1-compute-managed-disk-encryption-is-enabled" {
   enforcement_level = "soft-mandatory"
